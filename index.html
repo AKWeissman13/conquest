@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>CONQUEST</title>
+    <script src="/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <div class="logo header__logo">
+          <img src="/img/Ellipse.png" alt="CONQUEST" />
+          <h1>CONQUEST</h1>
+        </div>
+        <nav class="header__menu-container">
+          <ul class="menu">
+            <li><a href="#" class="menu__link">Каталог</a></li>
+            <li><a href="#" class="menu__link">Акции</a></li>
+            <li><a href="#" class="menu__link">Доставка</a></li>
+            <li><a href="#" class="menu__link">Контакты </a></li>
+          </ul>
+        </nav>
+        <div class="header__nav-icons">
+          <div class="header__search">
+            <img src="/img/search.svg" alt="search" />
+          </div>
+          <a class="header__favorite">
+            <img src="/img/fav.svg" alt="favorites" />
+          </a>
+          <a class="header__shop">
+            <img src="/img/shop.svg" alt="shop" />
+          </a>
+        </div>
+        <img class="header__menu-btn"src="img/menu.png" alt="menu" data-menu>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__inner">
+        <div class="promo">
+          <div class="promo__inner">
+            <div class="promo__left">
+              <h1 class="title promo__title title--lg">Весна/Лето 2019</h1>
+              <h2 class="title promo__title-2 title--sm">Коллекция</h2>
+              <p class="promo__text">
+                Швейцарские часы в наличии в Москве<br />
+                и с доставкой по всему мир
+              </p>
+              <a href="#" class="catalog catalog--primary promo__catalog">
+                Смотреть каталог
+              </a>
+            </div>
+
+            <div class="promo__right">
+              <div class="promo__img">
+                <img src="/img/watch_main.png" alt="watch" />
+                <div class="promo__ellipse">
+                  <div class="promo__ellipse--form"></div>
+                </div>
+              </div>
+              <div class="promo__price">
+                <p>22 000</p>
+                <img src="/img/ruble.svg" alt="ruble" />
+              </div>
+              <p class="promo__description">28 мм диаметр</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pop-models">
+          <div class="pop-models__inner">
+            <h1 class="title title--md pop-models__title">Популярные модели</h1>
+            <a href="#" class="pop-models__watch-all">Смотреть все</a>
+            <div class="pop-models__models-container">
+              <div class="model pop-models__model">
+                <div class="model__inner">
+                  <div class="model__name">RADO</div>
+                  <div class="model__price">
+                    <span>65 300</span>
+                    <img src="/img/ruble.svg" alt="ruble" />
+                  </div>
+                  <div class="model__img">
+                    <img src="/img/watch_1.png" alt="watch" />
+                    <div class="model__elipse"></div>
+                  </div>
+                  <div class="model__description">Подробнее</div>
+                </div>
+              </div>
+              <div class="model pop-models__model">
+                <div class="model__inner">
+                  <div class="model__name">BVLGARI</div>
+                  <div class="model__price">
+                    <span>81 700</span>
+                    <img src="/img/ruble.svg" alt="ruble" />
+                  </div>
+                  <div class="model__img">
+                    <img src="/img/watch_3.png" alt="watch" />
+                    <div class="model__elipse"></div>
+                  </div>
+                  <div class="model__description">Подробнее</div>
+                </div>
+              </div>
+              <div class="model pop-models__model">
+                <div class="model__inner">
+                  <div class="model__name">BVLGARI</div>
+                  <div class="model__price">
+                    <span>72 700</span>
+                    <img src="/img/ruble.svg" alt="ruble" />
+                  </div>
+                  <div class="model__img">
+                    <img src="/img/watch_4.png" alt="watch" />
+                    <div class="model__elipse"></div>
+                  </div>
+                  <div class="model__description">Подробнее</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-block">
+          <div class="carousel-block--effect1"></div>
+          <div class="carousel-block--effect2"></div>
+          <div class="carousel-block--effect3"></div>
+
+          <div class="carousel-block__inner">
+            <div class="carousel" data-carousel>
+              <button
+                class="carousel__btn carousel__btn-prev"
+                data-carousel-button="prev"
+              >
+                <img src="/img/arrow_left.png" alt="" />
+              </button>
+              <button
+                class="carousel__btn carousel__btn-next"
+                data-carousel-button="next"
+              >
+                <img src="/img/arrow_right.png" alt="" />
+              </button>
+              <div class="carousel__index" data-counter>01</div>
+              <ul class="carousel__slides" data-slides>
+                <li data-active>
+                  <div class="carousel__img">
+                    <img src="/img/photo_banner.jpg" alt="watch" />
+                  </div>
+                  <h1 class="title title--md carousel__title">
+                    Подлинное качество
+                  </h1>
+                  <p class="carousel__text">
+                    Все часы производятся в Швейцарии и имеют сертификаты
+                    качества. Настоящие швейцарские часы — это предмет гордости
+                    и престижа.
+                  </p>
+                  <div class="carousel__catalog">
+                    <a href="#" class="catalog catalog--secondary">
+                      Смотреть каталог
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="carousel__img">
+                    <img src="/img/watch_main.png" alt="watch" />
+                  </div>
+                  <h1 class="title title--md carousel__title">
+                    Подлинное качество
+                  </h1>
+                  <p class="carousel__text">
+                    Все часы производятся в Швейцарии и имеют сертификаты
+                    качества. Настоящие швейцарские часы — это предмет гордости
+                    и престижа.
+                  </p>
+                  <div class="carousel__catalog">
+                    <a href="#" class="catalog catalog--secondary">
+                      Смотреть каталог
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="carousel__img">
+                    <img src="/img/photo_3.jpg" alt="watch" />
+                  </div>
+                  <h1 class="title title--md carousel__title">
+                    Подлинное качество
+                  </h1>
+                  <p class="carousel__text">
+                    Все часы производятся в Швейцарии и имеют сертификаты
+                    качества. Настоящие швейцарские часы — это предмет гордости
+                    и престижа.
+                  </p>
+                  <div class="carousel__catalog">
+                    <a href="#" class="catalog catalog--secondary">
+                      Смотреть каталог
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="carousel__img">
+                    <img src="/img/ruble.svg" alt="watch" />
+                  </div>
+                  <h1 class="title title--md carousel__title">
+                    Подлинное качество
+                  </h1>
+                  <p class="carousel__text">
+                    Все часы производятся в Швейцарии и имеют сертификаты
+                    качества. Настоящие швейцарские часы — это предмет гордости
+                    и престижа.
+                  </p>
+                  <div class="carousel__catalog">
+                    <a href="#" class="catalog catalog--secondary">
+                      Смотреть каталог
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="social">
+          <div class="social__inner">
+            <div class="social__left">
+              <h1 class="title social__title title--md">
+                Следите за нашими новостями
+              </h1>
+              <p class="social__text">
+                Подписывайтесь на @<span>conquest_watch</span> в соцсетях<br />
+                и узнавайте о новинках и акциях первыми.
+              </p>
+              <div class="social__icons">
+                <a href="#"><img src="/img/instagram_icon.svg" alt="" /> </a>
+                <a href="#"><img src="/img/facebook_icon.svg" alt="" /></a>
+                <a href="#"><img src="/img/twitter_icon.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="social__right">
+              <div class="social__grid-imgs">
+                <img src="/img/photo_1.jpg" alt="" class="social__img1" />
+                <img src="/img/photo_2.jpg" alt="" class="social__img2" />
+                <img src="/img/photo_3.jpg" alt="" class="social__img3" />
+                <!-- <div class="social__img1"></div>
+                <div class="social__img2"></div>
+                <div class="social__img3"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div>
+          <div class="logo footer__logo">
+            <img src="/img/Ellipse2.png" alt="CONQUEST" />
+            <h1>CONQUEST</h1>
+          </div>
+          <ul class="footer__text">
+            <li>8 (499) 450-47-97</li>
+            <li>info@conquest.watch.ru</li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="footer__title">о компании</h1>
+          <ul class="footer__text">
+            <li><a href="#">Наши магазины</a></li>
+            <li><a href="#">Вакансии</a></li>
+            <li><a href="#">Сертификаты</a></li>
+            <li><a href="#">Отзывы</a></li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="footer__title">покупателям</h1>
+          <ul class="footer__text">
+            <li><a href="#">Каталог товаров</a></li>
+            <li><a href="#">Как заказать?</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Корпоративным клиентам</a></li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="footer__title">оплата и доставка</h1>
+          <ul class="footer__text">
+            <li><a href="#">Способы оплаты</a></li>
+            <li><a href="#">Время доставки</a></li>
+            <li><a href="#">Гарантии и ремонт</a></li>
+            <li><a href="#">Возврат и компенсация</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
